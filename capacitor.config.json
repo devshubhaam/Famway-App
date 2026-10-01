@@ -1,0 +1,22 @@
+{
+  "appId": "com.famway.app",
+  "appName": "FamWay",
+  "webDir": "www",
+  "server": {
+    "url": "https://extreme-prisca-shubhamk2559-alpha-0c651ef5.koyeb.app",
+    "cleartext": false,
+    "allowNavigation": [
+      "extreme-prisca-shubhamk2559-alpha-0c651ef5.koyeb.app",
+      "accounts.google.com"
+    ],
+    "errorPath": "offline.html"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "overrideUserAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36 FamWayApp"
+  },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 800, "backgroundColor": "#ffffff" },
+    "StatusBar": { "style": "LIGHT", "backgroundColor": "#ffffff" }
+  }
+}
